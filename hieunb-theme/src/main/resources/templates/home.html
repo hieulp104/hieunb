@@ -7,12 +7,23 @@
     layout:decorate="~{ezytheme}">
 <body>
 <div layout:fragment="content">
+    <h1 class="home-page-title">This is home page</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12 bg-success">
+                <img src="/images/wheel.png">
+            </div>
+            <div class="col-lg-6 col-12 bg-danger">
+                <p>
+                    Trong danh sách triệu tập cho đợt vòng loại Asian Cup 2027 diễn ra vào tháng 11, tân HLV trưởng tuyển Thái Lan là ông Anthony Hudson đã chiều lòng dư luận nước nhà.
+
+                    Đó cũng chính là một trong những nguyên do dẫn đến việc HLV Masatada Ishii bị Liên đoàn Bóng đá Thái Lan (FAT) sa thải vào tháng trước, khi ông từ chối gọi trở lại đội tuyển những lão tướng đã hết thời.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 <th:block layout:fragment="post-scripts">
-    <script ezy:vsrc="/js/ezyclient-1.0.3.min.js"></script>
-    <script ezy:vsrc="/js/phaser.min.js"></script>
-    <script ezy:vsrc="/js/game.js"></script>
-    <script ezy:vsrc="/js/socket.js"></script>
 </th:block>
 </body>
 </html>
